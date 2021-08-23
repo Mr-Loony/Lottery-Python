@@ -8,7 +8,7 @@ n = int(input("Enter sum: "))
 for k in range(5):
     m = int(input("Please enter number: "))
     num2.append(m)
-x = 0
+y = 0
 num=[]
 for i in range(10):
     random=randint(1,20)
@@ -19,7 +19,7 @@ for i in range(10):
 
 for nr in num2:
     if nr in num:
-        x = x+1
+        y = y+1
         
  # new stuff. It just adds a * on numbers you guessed.
 for nm in num:
