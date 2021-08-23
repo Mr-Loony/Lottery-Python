@@ -20,7 +20,13 @@ for i in range(10):
 for nr in num2:
     if nr in num:
         x = x+1
+        
+ # new stuff. It just adds a * on numbers you guessed.
+for nm in num:
+    if nm in num2:
+        print("*",end="")
+        nt = nt+1
+    print(nm,"",end="")
 
-print(num2)
-print(num)
-print("You won: ", n*x)
+print("\n"+"You won: ",n*y,"$")
+print("You guessed",nt,"out of 10 numbers.")
